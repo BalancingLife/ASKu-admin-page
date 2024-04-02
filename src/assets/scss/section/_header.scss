@@ -1,0 +1,24 @@
+.header {
+    z-index: 10000;
+    height: 50px;
+}
+.header__inner {
+    @include flex-between;
+    background-color: rgba(116, 99, 99, 0.1);
+    backdrop-filter: blur(15px);
+    padding: 1rem;
+    height: 50px;
+
+    .header__logo {
+        margin-left: auto;
+        font-size: 0.9rem;
+        text-align: center;
+        line-height: 1;
+
+        em {
+            font-size: 10px;
+            display: block;
+            color: var(--black200);
+        }
+    }
+}

@@ -1,0 +1,12 @@
+.user {
+  height: calc(100vh - 50px); /* 뷰포트의 높이에서 사이드바의 높이를 뺀 값 */
+  /* 나머지 스타일 설정 */
+
+  margin-left: 250px;
+
+  /* 원하는 너비 설정 */
+}
+.frame {
+  padding-left: 20px;
+  padding-top: 40px;
+}

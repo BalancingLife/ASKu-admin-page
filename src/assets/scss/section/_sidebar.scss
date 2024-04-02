@@ -1,0 +1,32 @@
+.container {
+  position: fixed;
+  height: calc(100vh - 50px);
+  width: 250px; /* 사이드바의 너비 설정 */
+  z-index: 100000;
+  background-color: #434157;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    z-index: 1000001;
+
+    border-bottom: 1.5px solid black;
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #000000;
+    &:hover {
+      color: #a6c017; /* 링크에 호버 효과 적용 */
+    }
+  }
+}
